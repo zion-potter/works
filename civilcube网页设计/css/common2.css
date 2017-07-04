@@ -1,0 +1,201 @@
+/*-----------------------------------头部----------------------------------------------*/
+.header{
+    min-height:100px;
+    width: 960px;
+    margin:0 auto;
+}
+.header .header-logo{
+    float: left;
+    margin-left: 90px;
+}
+.header-logo .main-logo{
+   height: 50px;
+   width: 120px;
+   margin-top:26px;
+}
+.header-logo .main-logo2{
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+}
+.header-nav{
+    float: right;
+    margin-top:42px;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header-nav li{
+    float: left;
+    margin-right: 56px;
+}
+.header-nav li a{
+    color: #666;
+}
+.header-nav li:nth-child(2) a{
+    color: #f60;
+}
+.header-nav li:hover a{
+    color: #f60;
+}
+/*------------------------------------内容------------------------------------------------*/
+#container{
+    min-height:100px;
+    width: 960px;
+    margin:0 auto;
+}
+#container .cont-header{
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+#container .cont-header h6{
+    color: #999;
+}
+#container .cont-nav{
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 300px;
+
+}
+#container .cont-nav li{
+    float: left;
+    width: 90px;
+    height: 30px;
+    margin-left: 1px;
+}
+#container .cont-nav li .n-style{
+    color: #333;
+    border-radius: 8px 8px 0 0;
+}
+.nav-style{
+    background-color: #666;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+}
+.hide{
+    display: none;
+}
+#container .cont-nav li:hover a{
+    background-color: #666;
+    color: #fff;
+}
+.line{
+    margin-top: -9px;
+    width: 960px;
+    height: 0px;
+    border-bottom: 1px solid #666;
+}
+/*-----------------------------------图片内容--------------------------------------------*/
+.img-design-1,.img-design-2,.img-design-3,
+.img-design-4,.img-design-5,.img-design-6,
+.img-design-7,.img-design-8,.img-design-9{
+    float: left;
+    padding: 10px;
+}
+.limit img{
+    width: 300px;
+    height: 263px;
+    transition: all .3s ease-out 0s;
+     -moz-transition: all 0.3s ease-out 0s; 
+    -webkit-transition: all 0.3s ease-out 0s; 
+    -o-transition: all 0.3s ease-out 0s;
+}
+.limit{
+    width: 300px;
+    height: 263px;
+    overflow: hidden;
+}
+a:hover .limit img{
+    width: 400px;
+    height: 350px;
+    margin-left: -50px;
+    margin-top: -42px;
+}
+a .caption{
+    margin-top: 10px;
+    text-align: center;
+    color: #999;
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+a:hover .caption{
+    color: #333;
+}
+/*--------------------------------点击图片后的图文内容category----------------------------------*/
+.container-2{
+    min-height:100px;
+    width: 960px;
+    margin:0 auto;
+}
+.container-2 .ctg-header{
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
+.container-2 .ctg-header h6{
+    color: #999;
+}
+.line-2{
+    margin-top: 100px;
+    width: 960px;
+    height: 0px;
+    border-bottom: 1px solid #666;
+}
+.image-text{
+    margin-top: 70px;
+}
+.image-text img{
+    width: 400px;
+    height: auto;
+}
+.category .image-text .box{
+    float: left;
+}
+#detail{
+    float: left;
+    width: 50%;
+    margin-left: 60px;
+}
+#intro,#cost,#review{
+    height: 116px;
+    width: 400px;
+    word-wrap:break-word; 
+    word-break:break-all; 
+    /*overflow: hidden;*/
+}
+/*--------------------------------跟随鼠标局部放大图片----------------------------------*/
+.box {
+    width: 400px;
+    height: 350px;
+    border: 1px solid #ccc;
+    position: relative;}
+.big {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    left: 410px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: none;}
+.mask {
+    width: 200px;
+    height: 175px;
+    background: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: move;
+    display: none;}
+.small {position: relative;}
+.box .big img{width: 800px;}
+.box img {vertical-align: top;}
+#bigBox img {position: absolute;}
+/*--------------------------------坐标测试用----------------------------------*/
+/*#detection{
+    margin: 20px;
+}*/
+

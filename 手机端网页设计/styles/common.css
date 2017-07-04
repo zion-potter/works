@@ -1,0 +1,265 @@
+.frame{
+    min-height: 100px;
+    width: 750px;
+    margin: 0 auto;
+}
+.container{
+    width: 750px;
+    margin: 0 auto;
+}
+.header{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 65px;
+    padding-bottom: 25px;
+    height: 128px;
+    text-align: center;
+}
+.headline{
+    font-family: "微软雅黑";
+    font-size: 36px;
+    color: #666;
+}
+.background{
+    height: 239px;
+    position: relative;
+}
+.ad{
+    position: absolute;
+    top: 58px;
+    left: 68px;
+    /*font-family: "[FZLTXHJW]";*/
+}
+.ad p{
+    font-family: "[FZLTZHK]";
+    font-size: 37px;
+    font-weight: bold;
+    color: #fff;
+}
+.ad p .big{
+    font-size: 58px;
+}
+.check{
+    width: 115px;
+    height: 30px;
+    font-family: "[FZLTXHJW]";
+    font-size: 23px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    color:#fff;
+}
+.dot-nav{
+    position: absolute;
+    left: 345px;
+    bottom: 7px;
+}
+.dot-nav ul li{
+    float: left;
+    margin-right: 10px;
+}
+.dot-1,.dot-2,.dot-3{
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+.dot-2{
+    background-color: #ff8d8d;
+}
+
+.service-firstRow,.service-secondRow{
+    margin-top: 40px;
+}
+.service ul{
+    margin-left: 19px;
+}
+.service ul li{
+    float: left;
+    width: 178px;
+    text-align: center;
+}
+.service-img{
+    margin: 0 auto;
+}
+.service-text{
+    margin-top: 8px;
+    color: #666;
+    font-family: "微软雅黑";
+    font-size: 30px;
+}
+
+.line-between-1{
+    width: 750px;
+    height: 1px;
+    border-bottom: 1px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px #666;
+    margin-top: 20px;
+}
+
+.set-nav{
+    margin-top: 20px;
+    height: 70px;
+    line-height: 70px;
+}
+.nav-options ul li{
+    float: left;
+    width: 240px;
+    text-align: center;
+}
+.nav-options-first-li{
+    margin-left: 15px;
+}
+.nav-options ul li a{
+    font-family: "微软雅黑";
+    font-size: 30px;
+    color: #666;
+}
+/*----------用CSS编写箭头---------------*/
+.arrows{
+    height: 0;
+    width: 0;
+    position: relative;
+}
+.arrows:after, .arrows:before {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+.arrows:after {
+  border-width: 11px;
+  border-top-color: #fff;
+  left: 13px;
+  top:13px;
+}
+.arrows:before {
+  border-width: 14px;
+  border-top-color: #666;
+  left: 10px;
+  top:13px;
+}
+/*--------------------------------------*/
+.line-between-2{
+    width: 750px;
+    height: 1px;
+    border-bottom: 1px;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px #666;
+    margin-top: 20px;
+}
+
+.details{
+    margin-top: 20px;
+}
+.fd-img,.fd-text,
+.sd-img,.sd-text,
+.td-img,.td-text{
+    float: left;
+    margin-left: 20px;
+}
+.fd-text,.sd-text,.td-text{
+    width: 510px;
+}
+.left-part p{
+    margin-bottom: 10px;
+}
+.add-black{
+    font-family: "微软雅黑";
+    font-size: 30px;
+    color: #666;
+    margin-top: -5px;
+}
+.add-white{
+    font-family: "微软雅黑";
+    font-size: 26px;
+    color: #999;
+}
+.add-red{
+    font-family: "微软雅黑";
+    color: #fc4a4a;
+    font-size: 28px;
+}
+.add-big{
+    font-size: 36px;
+}
+.add-line-through{
+    font-family: "微软雅黑";
+    color: #999;
+    font-size: 28px;
+    text-decoration: line-through;
+}
+.left-part{
+    float: left;
+}
+.right-part{
+    float: right;
+}
+.right-part .fast{
+    width: 105px;
+    height: 30px;
+    font-family: "微软雅黑"; 
+    font-size: 23px;
+    background-color: #ff8d8d;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.right-part .hour{
+    box-sizing: border-box;
+    width: 105px;
+    height: 30px;
+    line-height: 30px;
+    font-family: "微软雅黑"; 
+    font-size: 26px;
+    color: #ff8d8d;
+    text-align: center;
+    border:1px solid #ff8d8d;
+    border-radius: 0 0 5px 5px;
+}
+.line-between-3{
+    width: 510px;
+    height: 1px;
+    border-bottom: 1px;
+    background-color: #fff;
+    box-shadow: 0px 1px 8px #666;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+.below-part{
+    text-align: right;
+}
+.first-details,.second-details{
+    margin-bottom: 20px;
+}
+
+.add-blank{
+    width:750px;
+    height: 100px;
+    background-color: #fff;
+}
+
+.footer-nav{
+    position: fixed;
+    bottom:0; 
+    background-color: #fff;
+}
+.footer-nav ul{
+    margin-left: 19px;
+}
+.footer-nav ul li{
+    float: left;
+    width: 178px;
+    text-align: center;
+}
+.footer-img{
+    margin: 0 auto;
+}
+.footer-text{
+    margin-top: 8px;
+    color: #666;
+    font-family: "微软雅黑";
+    font-size: 30px;
+}

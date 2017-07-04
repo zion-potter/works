@@ -1,0 +1,1286 @@
+ /*------------------------页首-------------------------------*/
+.header{
+    margin:0 auto;
+    height:440px;
+    width: 960px;
+    background:url("../images/background-1.jpg");
+}
+.first-header{
+    background: rgba(0, 0,0,0.2);
+}
+.public-container{
+    position:relative;
+    margin:0 auto;
+    /*background:#ccc;*/
+    min-height: 100px;
+    width: 768px;
+}
+.public-container-1{
+    position:relative;
+    margin:0 auto;
+    /*background:#ccc;*/
+    min-height: 100px;
+    width: 960px;
+}
+
+.header-logo{
+    float: left;
+}
+.header-logo .main-logo{
+   height: 50px;
+   width: 120px;
+   margin-top:26px;
+}
+.header-logo .f-logo2{
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.header-nav{
+    float: left;
+    margin-top:42px;
+    margin-left: 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header-nav .header-nav-li{
+    float: left;
+    margin-right: 20px;
+}
+.header-nav .header-nav-li a{
+    color: #fff;
+}
+.header-nav .header-nav-li:hover a{
+    text-decoration: underline;
+}
+.login{
+    float:right;
+    margin-top: 36px;
+}
+.login-menu .login-li{
+    float: left;
+}
+.login-menu .login-li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+.login .login-menu .login-li a:hover{
+    font-size: 16px;
+}
+.phone-logo{
+    float: left;
+    height: 15px;
+    width: 15px;
+    background-size: 100% 100%;
+}
+.man-logo{
+    float: left;
+    margin-left: 94px;
+    height: 15px;
+    width: 15px;
+    background-size: 100% 100%;
+}
+.login-logo{
+    float: left;
+    margin-left:34px;
+    height: 15px;
+    width: 15px;
+    background-size: 100% 100%;
+}
+span.name1 {
+    position: absolute;
+    width:98px
+}
+span.name2 {
+    position: absolute;
+    top: 34px;
+    width: 35px;
+}
+span.name3 {
+    position: absolute;
+    top: 34px;
+    width: 35px;
+}
+
+.slogan{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.img-s{
+    margin: 0 auto;
+}
+.img-s .img1-border{
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 121px;
+    width: 207px;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 10px;
+}
+.img-s .img2-border{
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+    height: 121px;
+    width: 207px;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 10px;
+}
+.customers{
+    margin:4px 0px 0px 4px;
+    height: 113px;
+    width:199px;
+    background: url("../images/customers.jpg");
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+.designers{
+    margin:4px 0px 0px 4px;
+    height: 113px;
+    width:199px;
+    background: url("../images/designers.jpg");
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+.slogan-m1{
+    float: left;
+    margin-top: 18px;
+    margin-left: 160px;
+    color: #fff;
+}
+.slogan-m2{
+    float: right;
+    margin-top: 18px;
+    margin-right: 153px;
+    color: #fff;
+}
+.slogan-s1{
+    float: left;
+    margin-top: 18px;
+    margin-left: 101px;
+    color: #fff;
+}
+.slogan-s2{
+    float: right;
+    margin-top: 18px;
+    margin-right: 101px;
+    color: #fff;
+}
+.btm-group{
+    position: relative;
+}
+button{
+    height: 30px;
+    width: 120px;
+    background: rgba(255, 255,255, 0.3);
+    border-radius: 10px;
+}
+button:hover{
+    background: rgba(255, 150,80, 0.3);
+}
+.mission{
+    float:left;
+    margin-top: 18px;
+    margin-left: 140px;
+    color: #fff;
+}
+.slogan-s3{
+    position: absolute;
+    top:20px;
+    left: 332px;
+    color: #fff;
+}
+.team{
+    float: right;
+    margin-top: 18px;
+    margin-right: 140px;
+    color: #fff;
+}
+/*------------------------内容-------------------------------*/
+.content{
+    margin:0 auto;
+    width: 960px;
+}
+/*------------------------内容模块1-------------------------------*/
+.second-header{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+/*------------------------住宅设计-------------------------------*/
+.house1,.house2,.house3,.house4,.house5,.house6{
+    width:16%;
+    float: left;
+    margin-top:50px;
+}
+.house1 a{
+    display: block; 
+    text-align: center;
+}
+.house1 a .img-house1{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.house1 a .img-house1 .house1-1{
+    height: 30px;
+    width: 33px;
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house1 a:hover .img-house1 .house1-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.house1 a .img-house1 .house1-2{
+    height: 30px;
+    width: 33px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house1 a:hover .img-house1 .house1-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.house1 a .caption1{
+    color: #666; 
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house1 a:hover .caption1{
+    color: #f60
+}
+/*------------------------别墅设计-------------------------------*/
+.house2 a{
+    display: block; 
+    text-align: center;
+}
+.house2 a .img-house2{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.house2 a .img-house2 .house2-1{
+    height: 30px;
+    width: 44px;
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house2 a:hover .img-house2 .house2-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.house2 a .img-house2 .house2-2{
+    height: 30px;
+    width: 44px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house2 a:hover .img-house2 .house2-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.house2 a .caption2{
+    color: #666; 
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house2 a:hover .caption2{
+    color: #f60
+}
+/*------------------------村镇设计-------------------------------*/
+.house3 a{
+    display: block; 
+    text-align: center;
+}
+.house3 a .img-house3{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.house3 a .img-house3 .house3-1{
+    height: 30px;
+    width: 44px;
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house3 a:hover .img-house3 .house3-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.house3 a .img-house3 .house3-2{
+    height: 30px;
+    width: 44px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house3 a:hover .img-house3 .house3-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.house3 a .caption3{
+    color: #666; 
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house3 a:hover .caption3{
+    color: #f60
+}
+/*------------------------学校设计-------------------------------*/
+.house4 a{
+    display: block; 
+    text-align: center;
+}
+.house4 a .img-house4{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.house4 a .img-house4 .house4-1{
+    height: 30px;
+    width: 58px;
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house4 a:hover .img-house4 .house4-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.house4 a .img-house4 .house4-2{
+    height: 30px;
+    width: 58px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house4 a:hover .img-house4 .house4-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.house4 a .caption4{
+    color: #666; 
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house4 a:hover .caption4{
+    color: #f60
+}
+/*------------------------办公楼设计-------------------------------*/
+.house5 a{
+    display: block; 
+    text-align: center;
+}
+.house5 a .img-house5{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.house5 a .img-house5 .house5-1{
+    height: 30px;
+    width: 27px;
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house5 a:hover .img-house5 .house5-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.house5 a .img-house5 .house5-2{
+    height: 30px;
+    width: 27px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house5 a:hover .img-house5 .house5-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.house5 a .caption5{
+    color: #666; 
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house5 a:hover .caption5{
+    color: #f60
+}
+/*------------------------规划设计-------------------------------*/
+.house6 a{
+    display: block; 
+    text-align: center;
+}
+.house6 a .img-house6{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.house6 a .img-house6 .house6-1{
+    height: 30px;
+    width: 34px;
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house6 a:hover .img-house6 .house6-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.house6 a .img-house6 .house6-2{
+    height: 30px;
+    width: 34px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house6 a:hover .img-house6 .house6-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.house6 a .caption6{
+    color: #666; 
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.house6 a:hover .caption6{
+    color: #f60
+}
+/*------------------------内容模块2-------------------------------*/
+.third-header{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+    color: #f60;
+}
+/*------------------------建筑方案-------------------------------*/
+.plan1,.plan2,.plan3,.plan4,.plan5,.plan6{
+    width:20%;
+    float: left;
+    margin-top:20px;
+    overflow: hidden;
+}
+.plan1 a{
+    display: block; 
+    text-align: center;
+}
+.plan1 a .img-plan1{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.plan1 a .img-plan1 .plan1-1{
+    height: 130px;
+    width: 192px;
+    position: relative;
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan1 a:hover .img-plan1 .plan1-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.plan1 a .img-plan1 .plan1-2{
+    height: 130px;
+    width: 192px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan1 a:hover .img-plan1 .plan1-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.plan1 a .img-plan1 .text1{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    color: #fff;
+     transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan1 a:hover .img-plan1 .text1{
+    color: #f60;
+}
+/*------------------------建筑施工图-------------------------------*/
+.plan2 a{
+    display: block; 
+    text-align: center;
+}
+.plan2 a .img-plan2{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.plan2 a .img-plan2 .plan2-1{
+    height: 130px;
+    width: 192px;
+    position: relative;
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan2 a:hover .img-plan2 .plan2-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.plan2 a .img-plan2 .plan2-2{
+    height: 130px;
+    width: 192px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan2 a:hover .img-plan2 .plan2-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.plan2 a .img-plan2 .text2{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    color: #fff;
+     transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan2 a:hover .img-plan2 .text2{
+    color: #f60;
+}
+/*------------------------建筑施工图-------------------------------*/
+.plan3 a{
+    display: block; 
+    text-align: center;
+}
+.plan3 a .img-plan3{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.plan3 a .img-plan3 .plan3-1{
+    height: 130px;
+    width: 193px;
+    position: relative;
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan3 a:hover .img-plan3 .plan3-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.plan3 a .img-plan3 .plan3-2{
+    height: 130px;
+    width: 192px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan3 a:hover .img-plan3 .plan3-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.plan3 a .img-plan3 .text3{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    color: #fff;
+     transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan3 a:hover .img-plan3 .text3{
+    color: #f60;
+}
+/*------------------------景观设计-------------------------------*/
+.plan4 a{
+    display: block; 
+    text-align: center;
+}
+.plan4 a .img-plan4{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.plan4 a .img-plan4 .plan4-1{
+    height: 130px;
+    width: 193px;
+    position: relative;
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan4 a:hover .img-plan4 .plan4-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.plan4 a .img-plan4 .plan4-2{
+    height: 130px;
+    width: 192px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan4 a:hover .img-plan4 .plan4-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.plan4 a .img-plan4 .text4{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    color: #fff;
+     transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan4 a:hover .img-plan4 .text4{
+    color: #f60;
+}
+/*------------------------景观设计-------------------------------*/
+.plan5 a{
+    display: block; 
+    text-align: center;
+}
+.plan5 a .img-plan5{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.plan5 a .img-plan5 .plan5-1{
+    height: 130px;
+    width: 193px;
+    position: relative;
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan5 a:hover .img-plan5 .plan5-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.plan5 a .img-plan5 .plan5-2{
+    height: 130px;
+    width: 192px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan5 a:hover .img-plan5 .plan5-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.plan5 a .img-plan5 .text5{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    color: #fff;
+     transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan5 a:hover .img-plan5 .text5{
+    color: #f60;
+}
+/*------------------------规划设计-------------------------------*/
+.plan6 a{
+    display: block; 
+    text-align: center;
+}
+.plan6 a .img-plan6{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.plan6 a .img-plan6 .plan6-1{
+    height: 130px;
+    width: 193px;
+    position: relative;
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan6 a:hover .img-plan6 .plan6-1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.plan6 a .img-plan6 .plan6-2{
+    height: 130px;
+    width: 192px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan6 a:hover .img-plan6 .plan6-2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.plan6 a .img-plan6 .text6{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    color: #fff;
+     transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out;
+}
+.plan6 a:hover .img-plan6 .text6{
+    color: #f60;
+}
+/*------------------------内容模块3-------------------------------*/
+.fourth-header{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+/*------------------------您的需求-------------------------------*/
+.content-3 .you-need, .content-3 .service, .content-3 .best{
+    width:33.3%;
+    float: left;
+    margin-top:50px;
+}
+.you-need a{
+    display: block; 
+    text-align: center;
+}
+.you-need a .img-need{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.you-need a .img-need .need1{
+    height: 55px;
+    width: 65px;
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.you-need a:hover .img-need .need1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.you-need a .img-need .need2{
+    height: 55px;
+    width: 65px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.you-need a:hover .img-need .need2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.you-need a .caption1 .text1{
+    color: #666; 
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.you-need a:hover .caption1 .text1{
+    color: #f60
+}
+.you-need a .caption1 .text2{
+    color: #aaa;
+    font-size: 10px;
+}
+/*------------------------设计师服务-------------------------------*/
+.service a{
+    display: block; 
+    text-align: center;
+}
+.service a .img-service{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.service a .img-service .service1{
+    height: 55px;
+    width: 65px;
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.service a:hover .img-service .service1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.service a .img-service .service2{
+    height: 55px;
+    width: 65px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.service a:hover .img-service .service2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.service a .caption2 .text1{
+    color: #666; 
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.service a:hover .caption2 .text1{
+    color: #f60
+}
+.service a .caption2 .text2{
+    color: #aaa;
+    font-size: 10px;
+}
+/*------------------------最喜欢的设计师-------------------------------*/
+.best a{
+    display: block; 
+    text-align: center;
+}
+.best a .img-best{
+    margin: 0; 
+    float: none; 
+    margin:0px 0px 0px 0px; 
+    display: inline-block; 
+    position: relative;
+}
+.best a .img-best .best1{
+    height: 55px;
+    width: 65px;
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.best a:hover .img-best .best1{
+    opacity: 0; 
+    filter:alpha(opacity=0);
+}
+.best a .img-best .best2{
+    height: 55px;
+    width: 65px;
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    opacity: 0; 
+    filter:alpha(opacity=0);
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.best a:hover .img-best .best2{
+    opacity: 1; filter:alpha(opacity=100);
+}
+.best a .caption3 .text1{
+    color: #666; 
+    position: relative;
+    transition: all 0.1s ease-out; 
+    -moz-transition: all 0.1s ease-out; 
+    -webkit-transition: all 0.1s ease-out; 
+    -o-transition: all 0.1s ease-out;
+}
+.best a:hover .caption3 .text1{
+    color: #f60
+}
+.best a .caption3 .text2{
+    color: #aaa;
+    font-size: 10px;
+}
+/*------------------------如何工作-------------------------------*/
+.fifth-header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #f60;
+}
+.content-4 .container{
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin: 0 auto;
+    height:369px;
+    width: 960px;
+    background: rgba(241, 103,57, 1)
+}
+.content-4 .work{
+    margin:0 auto;
+    height: 80px;
+    width: 500px;
+    background: rgba(240, 84, 33, 1);
+}
+.work .caption1,.work .caption2,.work .caption3,.work .caption4{
+    width:25%;
+    float: left;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+.work .text1 .c-size{
+    font-size: 24px;
+    font-weight: bold;
+}
+/*------------------------更多的设计可能-------------------------------*/
+.sixth-header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.more-possibilities{
+    position:relative;
+    margin:0 auto;
+    /*background:#ccc;*/
+    min-height: 100px;
+    width: 768px;
+}
+.more-possibilities .know-more,.goods-more,.realize-more{
+    width: 33.3%;
+    float:left;
+    text-align: center;
+    color: #fff;
+}
+.more-possibilities .servers,.rmb,.task-list{
+    margin-top:10px;
+    margin-bottom: 10px; 
+    float: none; 
+    display: inline-block; 
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+.more-possibilities button{
+    color: #fff
+}
+.more-possibilities .text2{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+/*------------------------我们的优秀案例-------------------------------*/
+.seventh-header{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #f60;
+}
+/*------------------------这一部分是复制内容模块二的-----------------*/
+
+/*------------------------页脚模块一-------------------------------*/
+.footer{
+    margin: 0 auto;
+    margin-top: -4px;
+    /*不知道为什么a模块的高度为134px，而且改不了，只能设成负值*/
+    height: 422px;
+    background: #454954
+}
+.public-container-2{
+    position:relative;
+    margin:0 auto;
+    /*background:#ccc;*/
+    height: 210px;
+    width: 540px;
+}
+.footer .f-block .left-menu{
+    float: left;
+    width: 50%;
+}
+.footer .f-block .left-menu .headline1{
+    color: #fff;
+    font-weight: bold;
+    margin: 14px 0 12px;
+}
+.left-menu .area-menu .first-line,
+.left-menu .area-menu .second-line,
+.left-menu .area-menu .third-line,
+.left-menu .area-menu .fourth-line{
+    width:21%;
+    float:left;
+    margin-right: 10px;
+}
+.left-menu .area-menu a{
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+.left-menu .area-menu a:hover{
+    color: #f60;
+}
+.footer .f-block .right-menu{
+    float: right;
+    width: 50%;
+}
+.footer .f-block .right-menu .headline2{
+    color: #fff;
+    font-weight: bold;
+    margin: 14px 0 12px 20px;
+}
+.f-block .right-menu .design-menu .first-line,
+.f-block .right-menu .design-menu .second-line,
+.f-block .right-menu .design-menu .third-line{
+    width: 25%;
+    float: left;
+    margin-left: 20px;
+}
+.right-menu .design-menu a{
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 4px;
+}
+.right-menu .design-menu a:hover{
+    color: #f60;
+}
+/*------------------------页脚模块二-------------------------------*/
+.footer .s-block{
+    margin: 0 auto;
+    height: 150px;
+    width: 960px;
+    background: url("../images/footer-background.png");
+}
+.public-container-3{
+    position:relative;
+    margin:0 auto;
+    /*background:#ccc;*/
+    height: 150px;
+    width: 540px;
+}
+.footer .s-block .line1,
+.footer .s-block .line2,
+.footer .s-block .line3,
+.footer .s-block .line4{
+    width:25%;
+    float: left;
+    text-align: left;
+}
+.footer .s-block .title1,
+.footer .s-block .title2,
+.footer .s-block .title3,
+.footer .s-block .title4{
+    color: #fff;
+    font-size: 14px;
+    margin: 16px 0;
+}
+.striping{
+    width: 106px;
+    height: 0px;
+    border-bottom: 1px solid #7b818d;
+}
+.footer .s-block .link-line1 a,
+.footer .s-block .link-line2 a,
+.footer .s-block .link-line3 a,
+.footer .s-block .link-line4 a{
+    color:#aaa;
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+.footer .s-block a:hover{
+    color: #fff;
+}
+/*------------------------页脚模块三-------------------------------*/
+.footer .t-block{
+    position: relative;
+}
+.public-container-4{
+    position:relative;
+    margin:0 auto;
+    /*background:#ccc;*/
+    height: 58px;
+    width: 372px;
+}
+.footer .t-block .credit1,
+.footer .t-block .credit2,
+.footer .t-block .credit3,
+.footer .t-block .credit4{
+    float: none; 
+    margin:20px 0px 0px 3px; 
+    display: inline-block; 
+    position: relative;
+}
+.footer .t-block .credit1{
+    height: 25px;
+    width: 25px;
+}
+.footer .t-block .credit2{
+    height: 25px;
+    width: 68px;
+}
+.footer .t-block .credit3{
+    height: 25px;
+    width: 35px;
+}
+.footer .t-block .credit4{
+    height: 25px;
+    width: 24px;
+}
+.footer .t-block .img-credit{
+    float: left;
+}
+.footer .t-block .contact{
+     float: left;
+}
+.footer .t-block .footer-contact{
+    color: #fff;
+    font-size: 10px;
+    margin-top: 24px;
+}
+
+
+

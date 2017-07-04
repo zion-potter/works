@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/reset.css"/>
+<link rel="stylesheet" href="css/common2.css"/>
+<script type="text/javascript" src="scripts/showNav.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo clearfloat">
+            <img class="main-logo" src="images/main-logo-b.png"></img>
+            <h1 class="main-logo2">civilcube.com</h1>
+        </div>
+        <ul class="header-nav clearfloat">
+                <li><a href="土立方网站.html">首&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+                <li><a href="">浏览类别</a></li>
+                <li><a href="">任务大厅</a></li>
+                <li><a href="">找设计师</a></li>
+                <li><a href="">服务商城</a></li>
+                <li><a href="">咨询大厅</a></li>
+        </ul>
+    </div>
+    <div class="content-two">
+        <div id="container">
+            <div class="cont-header clearfloat">
+                <h1>类别欣赏</h1>
+                <h6>Example design</h6>
+            </div>
+            <div class="cont-nav clearfloat">
+                <ul id="container-nav">
+                        <li><a class="nav-style" href="" onclick="state(this);return false;">全部</a></li>
+                        <li><a class="n-style" href="" onclick="state(this);return false;">别墅</a></li>
+                        <li><a class="n-style" href="" onclick="state(this);return false;">商品房</a></li>
+                        <li><a class="n-style" href="" onclick="state(this);return false;">酒店</a></li>
+                </ul>
+            </div>
+            <div class="line"></div>
+            <div id="img-all">
+                <div class="first-row clearfloat">
+                    <div id="d1" class="design-1">
+                        <a href="#" onclick="jumpDetail(this);return false;">
+                            <div class="img-design-1">
+                                <div class="limit">
+                                    <img src="images2/design-1.jpg" alt="" class="design-1"/>
+                                </div>
+                                <div class="caption">类别一</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="d2" class="design-2">
+                        <a href="#" onclick="jumpDetail(this);return false;">
+                            <div class="img-design-2">
+                                <div class="limit">
+                                    <img src="images2/design-2.jpg" alt="" class="design-2"/>
+                                </div>
+                                <div class="caption">类别二</div>
+                            </div>                            
+                        </a>
+                    </div>
+                    <div id="d3" class="design-3">
+                        <a href="#" onclick="jumpDetail(this);return false;">
+                            <div class="img-design-3">
+                                <div class="limit">
+                                    <img src="images2/design-3.jpg" alt="" class="design-3"/>
+                                </div>
+                                <div class="caption">类别三</div>
+                            </div>                            
+                        </a>
+                    </div>
+                </div>
+                <div class="second-row clearfloat">
+                    <div id="d4" class="design-4">
+                        <a href="#" onclick="jumpDetail(this);return false;">
+                            <div class="img-design-4">
+                                <div class="limit">
+                                    <img src="images2/design-4.jpg" alt="" class="design-4"/>
+                                </div>
+                                <div class="caption">类别四</div>
+                            </div>                            
+                        </a>
+                    </div>
+                    <div id="d5" class="design-5">
+                        <a href="#" onclick="jumpDetail(this);return false;">
+                            <div class="img-design-5">
+                                <div class="limit">
+                                    <img src="images2/design-5.jpg" alt="" class="design-5"/>
+                                </div>
+                                <div class="caption">类别五</div>
+                            </div>                            
+                        </a>
+                    </div>
+                    <div id="d6" class="design-6">
+                        <a href="#" onclick="jumpDetail(this);return false;">
+                            <div class="img-design-6">
+                                <div class="limit">
+                                    <img src="images2/design-6.jpg" alt="" class="design-6"/>
+                                </div>
+                                <div class="caption">类别六</div>
+                            </div>                            
+                        </a>
+                    </div>
+                </div>
+                <div class="third-row clearfloat">
+                    <div id="d7" class="design-7">
+                        <a href="#" onclick="jumpDetail(this);return false;">
+                            <div class="img-design-7">
+                                <div class="limit">
+                                    <img src="images2/design-7.jpg" alt="" class="design-7"/>
+                                </div>
+                                <div class="caption">类别七</div>
+                            </div>                            
+                        </a>
+                    </div>
+                    <div id="d8" class="design-8">
+                        <a href="#" onclick="jumpDetail(this);return false;">
+                            <div class="img-design-8">
+                                <div class="limit">
+                                    <img src="images2/design-8.jpg" alt="" class="design-8"/>
+                                </div>
+                                <div class="caption">类别八</div>
+                            </div>                            
+                        </a>
+                    </div>
+                    <div id="d9" class="design-9">
+                        <a href="#" onclick="jumpDetail(this);return false;">
+                            <div class="img-design-9">
+                                <div class="limit">
+                                    <img src="images2/design-9.jpg" alt="" class="design-9"/>
+                                </div>
+                                <div class="caption">类别九</div>
+                            </div>                    
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category container-2">
+            <div id="categr" class="hide">
+                <div class="ctg-header clearfloat">
+                    <h1>类别<span id="span1"></span></h1>
+                    <h6>TEAM</h6>
+                </div>
+                <div class="line-2"></div>
+                <div class="image-text">
+                    <div class="box" id="box">
+                        <div id="smallBox" class="small">
+                            <img src="" id="images" alt="" />
+                            <div id="mask" class="mask"></div>
+                        </div>
+                        <div id="bigBox" class="big">
+                            <img src="" id="bigImg" alt="" />
+                        </div>
+                    </div>
+                    <div id="detail">
+                        <div id="intro">
+                            <p>简介：6</p>
+                            <p>简介：66</p>
+                            <p>简介：666</p>
+                            <p>简介：6666</p>
+                            <p>简介：66666</p>
+                            <p>简介：666666</p>
+                            <p>简介：6666666</p>
+                            <p>简介：66666666</p>
+                            <p>简介：666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666</p>
+                        </div>
+                        <div id="cost">
+                            <p>造价：6</p>
+                            <p>造价：66</p>
+                            <p>造价：666</p>
+                            <p>造价：6666</p>
+                            <p>造价：66666</p>
+                            <p>造价：666666</p>
+                            <p>造价：6666666</p>
+                            <p>造价：66666666</p>
+                            <p>造价：666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666</p>
+                        </div>
+                        <div id="review">
+                            <p>评价：6</p>
+                            <p>评价：66</p>
+                            <p>评价：666</p>
+                            <p>评价：6666</p>
+                            <p>评价：66666</p>
+                            <p>评价：666666</p>
+                            <p>评价：6666666</p>
+                            <p>评价：66666666</p>
+                            <p>评价：666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<input name="坐标测试用" type="text" id="detection">-->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
